@@ -40,6 +40,8 @@ public class MainActivity extends Activity {
         }
 
         // test 1
+
+        // test 2
     }
 
     @Override
