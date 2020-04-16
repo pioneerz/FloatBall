@@ -27,7 +27,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // test code
         boolean showMenu = true;//换成false试试
         initSinglePageFloatball(showMenu);
         //5 如果没有添加菜单，可以设置悬浮球点击事件
@@ -39,8 +38,6 @@ public class MainActivity extends Activity {
                 }
             });
         }
-
-        // you see see you
     }
 
     @Override
